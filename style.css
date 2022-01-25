@@ -484,15 +484,6 @@ body {
     border-width: 10px;
 }
 
-.titlepopover {
-    color: #F3F3F3;
-    font-size: 50px;
-    border-bottom: solid;
-    border-color: #FFBD13;
-    border-width: 10px;
-    position: absolute;
-}
-
 .couleurpopover {
     background-color: #0F0F0F !important;
 }
