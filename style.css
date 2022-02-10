@@ -390,7 +390,7 @@ body {
 }
 
 .boutonphotographies {
-    background-image: url("img/creanum/photo/poney.jpg"), url("img/creanum/photo/julia.png"), url("img/creanum/photo/poney3.jpg"), url("img/creanum/photo/grandcombin.jpg"), url("img/creanum/photo/poney2.jpg"), url("img/creanum/photo/montagny.png");
+    background-image: url("img/creanum/photo/poney.jpg"), url("img/creanum/photo/julia.jpg"), url("img/creanum/photo/poney3.jpg"), url("img/creanum/photo/grandcombin.jpg"), url("img/creanum/photo/poney2.jpg"), url("img/creanum/photo/montagny.jpg");
     height: 20vh !important;
     background-repeat: no-repeat, no-repeat !important;
     background-position-y: 77% !important;
