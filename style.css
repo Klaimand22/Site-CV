@@ -229,35 +229,16 @@ body {
 }
 
 .boutonprojetaviron {
-    text-align: center;
-    margin-top: 30px;
-    width: 60%;
-    left: 50%;
-    transform: translateX(-50%);
-    position: relative;
-    animation: 0.2s all ease-in-out;
-    background-image: url("img/france.jpg");
-    height: 18vh;
-    background-repeat: no-repeat;
-    background-position-y: 77%;
-    background-position-x: 5%;
-    background-size: cover;
+    background-image: url("img/aviron/france.jpg");
 }
 
 .boutonprojetcrea {
-    text-align: center;
-    margin-top: 30px;
-    width: 60%;
-    left: 50%;
-    transform: translateX(-50%);
-    position: relative;
-    animation: 0.2s all ease-in-out;
-    background-image: url("img/poney.jpg"), url("img/julia.png"), url("img/poney3.jpg"), url("img/grandcombin.jpg"), url("img/poney2.jpg"), url("img/montagny.png");
-    height: 20vh;
-    background-repeat: no-repeat, no-repeat;
-    background-position-y: 77%;
-    background-position-x: 0%, 20%, 40%, 60%, 80%, 100%;
-    background-size: contain;
+    background-image: url("img/creanum/photo/poney.jpg"), url("img/creanum/photo/julia.png"), url("img/creanum/photo/poney3.jpg"), url("img/creanum/photo/grandcombin.jpg"), url("img/creanum/photo/poney2.jpg"), url("img/creanum/photo/montagny.png");
+    height: 20vh !important;
+    background-repeat: no-repeat, no-repeat !important;
+    background-position-y: 77% !important;
+    background-position-x: 0%, 20%, 40%, 60%, 80%, 100% !important;
+    background-size: contain !important;
 }
 
 .grisprojets {
@@ -309,6 +290,10 @@ body {
 
 .couleurpopover {
     background-color: #0F0F0F !important;
+}
+
+.popover-close-button i {
+    color: rgb(255, 255, 255) !important;
 }
 
 
@@ -369,11 +354,19 @@ body {
 }
 
 
+<<<<<<< HEAD
+/* POPOVER CREATION NUMERIQUES */
+
+.section2 {
+    background-color: rgb(255, 255, 255);
+    height: 18vh;
+=======
 /* PROJETS CREATION NUMERIQUES */
 
 .section2 {
     background-color: rgb(255, 255, 255);
     height: 540px;
+>>>>>>> main
     width: 960px;
     display: flex;
     max-height: 540px;
@@ -393,7 +386,118 @@ body {
     width: 100%;
     height: 100%;
     z-index: 10;
+<<<<<<< HEAD
+    object-fit: cover;
+}
+
+.boutonpopover {
+    height: 540px;
+    width: 960px;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: contain;
+}
+
+.boutonphotographies {
+    background-image: url("img/creanum/photo/poney.jpg"), url("img/creanum/photo/julia.png"), url("img/creanum/photo/poney3.jpg"), url("img/creanum/photo/grandcombin.jpg"), url("img/creanum/photo/poney2.jpg"), url("img/creanum/photo/montagny.png");
+    height: 20vh !important;
+    background-repeat: no-repeat, no-repeat !important;
+    background-position-y: 77% !important;
+    background-position-x: 0%, 20%, 40%, 60%, 80%, 100% !important;
+    background-size: contain !important;
+}
+
+
+/* PROJETS VIDEOS */
+
+.flex-videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+
+/*  
+.video:first-child {
+    border-color: #ff13ff;
+    border-style: solid;
+}
+*/
+
+.colonnevideo {
+    flex-direction: column;
+    padding-top: 2vh;
+}
+
+.video {
+    padding-top: 10vh;
+    max-width: 560px;
+}
+
+.logo {
+    max-height: 2vh;
+    padding-left: 1vh;
+}
+
+.pvideo {
+    font-size: 2vh;
+    padding-top: 1vh;
+}
+
+
+/* PROJETS PHOTOGRAPHIES */
+
+.flex-album {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.boutonalbum {
+    background-image: url(img/creanum/photo/albumponey/82.jpg);
+    text-align: center;
+    margin-top: 30px;
+    width: 60%;
+    margin-left: 100px;
+    position: relative;
+    animation: 0.2s all ease-in-out;
+    height: 25vh;
+    width: 25vh;
+    background-repeat: no-repeat;
+    background-position-y: 77%;
+    background-position-x: 5%;
+    background-size: cover;
+}
+
+.nomalbum {
+    color: #F3F3F3;
+    font-size: 3vh;
+}
+
+.flex-photo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: start
+}
+
+.colonnephoto {
+    flex-direction: column;
+    padding-top: 2vh;
+}
+
+.photo {
+    max-width: 20vw;
+    height: auto;
+    margin: 9px;
+=======
     object-fit: inherit;
+>>>>>>> main
 }
 
 
@@ -413,7 +517,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 150px;
+    padding-top: 20vh;
+    margin-left: 15vh;
 }
 
 .contactlogo {
@@ -422,10 +527,6 @@ body {
     ;
     margin-right: 50px;
     transform: scaleX(-1);
-}
-
-.divcontact {
-    padding-top: 200px;
 }
 
 .bar {
@@ -464,7 +565,7 @@ h2 {
 }
 
 .title {
-    padding-top: 100px;
+    padding-top: 20vh;
     margin-left: 250px;
     position: relative;
     height: 80px;
@@ -521,4 +622,19 @@ h2 {
 
 .page {
     height: 100vh;
+}
+
+.bouton {
+    text-align: center;
+    margin-top: 30px;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    animation: 0.2s all ease-in-out;
+    height: 18vh;
+    background-repeat: no-repeat;
+    background-position-y: 77%;
+    background-position-x: 5%;
+    background-size: cover;
 }
