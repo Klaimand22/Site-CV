@@ -233,7 +233,7 @@ body {
 }
 
 .boutonprojetcrea {
-    background-image: url("img/creanum/photo/poney.jpg"), url("img/creanum/photo/julia.png"), url("img/creanum/photo/poney3.jpg"), url("img/creanum/photo/grandcombin.jpg"), url("img/creanum/photo/poney2.jpg"), url("img/creanum/photo/montagny.png");
+    background-image: url("img/creanum/photo/poney.jpg"), url("img/creanum/photo/julia.jpg"), url("img/creanum/photo/poney3.jpg"), url("img/creanum/photo/grandcombin.jpg"), url("img/creanum/photo/poney2.jpg"), url("img/creanum/photo/montagny.jpg");
     height: 20vh !important;
     background-repeat: no-repeat, no-repeat !important;
     background-position-y: 77% !important;
@@ -354,19 +354,11 @@ body {
 }
 
 
-<<<<<<< HEAD
 /* POPOVER CREATION NUMERIQUES */
 
 .section2 {
     background-color: rgb(255, 255, 255);
     height: 18vh;
-=======
-/* PROJETS CREATION NUMERIQUES */
-
-.section2 {
-    background-color: rgb(255, 255, 255);
-    height: 540px;
->>>>>>> main
     width: 960px;
     display: flex;
     max-height: 540px;
@@ -386,7 +378,6 @@ body {
     width: 100%;
     height: 100%;
     z-index: 10;
-<<<<<<< HEAD
     object-fit: cover;
 }
 
@@ -438,13 +429,14 @@ body {
 }
 
 .logo {
-    max-height: 2vh;
+    max-height: 30px;
     padding-left: 1vh;
+    padding-top: 10px;
 }
 
 .pvideo {
     font-size: 2vh;
-    padding-top: 1vh;
+    padding: 10px;
 }
 
 
@@ -457,19 +449,35 @@ body {
 }
 
 .boutonalbum {
-    background-image: url(img/creanum/photo/albumponey/82.jpg);
     text-align: center;
-    margin-top: 30px;
-    width: 60%;
+    margin-top: 100px;
     margin-left: 100px;
     position: relative;
-    animation: 0.2s all ease-in-out;
     height: 25vh;
     width: 25vh;
     background-repeat: no-repeat;
-    background-position-y: 77%;
-    background-position-x: 5%;
+    background-position: center;
     background-size: cover;
+}
+
+.ab220122 {
+    background-image: url(img/creanum/photo/albumponey/82.jpg);
+}
+
+.ab200122 {
+    background-image: url(img/creanum/photo/album\ 20-01-22/19.jpg);
+    background-position: center;
+}
+
+.ab24hergo {
+    background-image: url(img/creanum/photo/album24hergo/17.jpg);
+    background-position: center;
+}
+
+.instagram {
+    border-bottom: solid;
+    border-color: #a0005d;
+    color: #F3F3F3;
 }
 
 .nomalbum {
@@ -492,12 +500,9 @@ body {
 }
 
 .photo {
-    max-width: 20vw;
-    height: auto;
+    max-width: auto;
+    height: 45vh;
     margin: 9px;
-=======
-    object-fit: inherit;
->>>>>>> main
 }
 
 
